@@ -7,7 +7,7 @@ let APP_HOST = ''
 switch (APP_ENV) {
     case 'local':
         console.log('connecting to local')
-        APP_HOST = 'http://192.168.1.13:5000'
+        APP_HOST = 'https://ebitsvisionai.in'
         break;
     case 'prod':
         console.log('connecting to prod')
